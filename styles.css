@@ -98,25 +98,22 @@ main h2 {
     text-align: center;
 }
 
-main ul {
-    list-style: none;
-    padding: 0;
-    margin: 20px 0;
+.form-group {
+    margin-bottom: 15px;
 }
 
-main ul li {
-    margin: 10px 0;
-    text-align: center;
-}
-
-main ul li a {
-    color: #e8491d;
-    text-decoration: none;
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
     font-weight: bold;
 }
 
-main ul li a:hover {
-    text-decoration: underline;
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 footer {
