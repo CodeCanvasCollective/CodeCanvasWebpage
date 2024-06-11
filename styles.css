@@ -55,6 +55,16 @@ footer {
     bottom: 0;
 }
 
+footer .social-media {
+    margin-bottom: 10px;
+}
+
+footer .social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
 footer p {
     margin: 0;
 }
